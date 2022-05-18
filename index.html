@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>201968051 곽나영</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<style>
+		.box {
+			position:absolute;
+			top:50%; left:50%;
+			transform: translate(-50%, -50%);
+			border: 5px solid rgb(26, 141, 194);
+			padding: 10px 70px 40px 70px;
+			
+		}
+		#login {
+			margin:5px 5px 5px -2px;
+			background-color: rgb(26, 141, 194);
+			border: 1px solid rgb(26, 141, 194);
+			width: 100%; height: 40px;
+			text-align: center;
+			font: large bold;
+			font-weight: bold;
+			color: white;
+		}
+		.btn {
+			background-color: rgb(26, 141, 194);
+			border: 1px solid rgb(26, 141, 194);
+			margin: 4px;
+			width: 45%; height: 33px;
+			color: white;
+			
+		}
+      		input{
+			width: 95%; height: 30px;
+			margin-bottom: 5px ;
+		}
+		</style>
+		<script>
+			function insert(){
+
+			}
+		</script>
+	</head>
+	<body>
+		<div class='box'>
+		<!-- <h1>로그인</h1>  -->
+		<img src="./국문상하1-JPG.jpg "><hr>
+		<form method="post" action="check_login.php">
+			아이디<br><input type="text" name="form_id" ><br>
+			비밀번호<br><input type="password" name="form_pw">
+			<input id='login' type="submit" value="로그인"><br><hr>
+			<input class = 'btn' type="button" value="비밀번호 찾기"> 
+			<input class = 'btn' type="button" value="회원가입"> 
+		</form>
+		</div>
+
+	</body>
+</html>
